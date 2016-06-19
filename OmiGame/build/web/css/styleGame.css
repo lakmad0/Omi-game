@@ -1,0 +1,141 @@
+/* 
+    Created on : Apr 24, 2016, 4:50:53 PM
+    Author     : Lakshitha
+*/
+
+body{
+ 	
+    background: #50a3a2;
+    background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+#container{
+	width: auto;
+}
+#top{
+	height: 500px;
+	width: 100%;
+}
+#leftPart{
+	height: 500px;
+	width: 80%;
+	position: relative;
+	float: left;
+}
+#message{
+	
+	height: 50px;	
+	opacity: 0.9;
+       // background-color: red;
+}
+#playedCards{
+	
+	height: 450px;
+	//background-color: green;
+			
+}
+#score{
+	position: relative;
+	float: right;
+	height: 500px;
+	width: 20%;	
+       // color: red;
+        font-size: 150%;
+       // background-color: orange;
+}
+#bottom{
+	clear: both;
+	width: 100%;
+	height: 200px;
+}
+
+div.position {
+    width:75px;
+    height:100px;
+    padding: 10px;
+  //  border:1px solid #aaaaaa;
+    display:inline-block;
+    background-color:yellow;
+    opacity: 1;
+}
+div.position:hover{
+
+
+    transition-delay: 10ms;
+    background-color: #ff09ff
+
+
+}
+
+#trump{
+	
+	position: relative;
+	margin-left: 20%;
+  	margin-top: 15%;
+}
+#card1{
+	position: absolute;
+	margin-left: 42%;
+  	margin-top: 27%;
+  	
+}
+#card2{
+	position: absolute;
+	margin-left: 54%;
+  	margin-top: 15%;
+  	
+}
+#card3{
+	position: absolute;
+	margin-left: 42%;
+  	margin-top: 3%;
+}
+#card4{
+	position: absolute;
+	margin-left: 30%;
+  	margin-top: 15%;
+}
+#bottom{
+    position: relative;
+    //margin-top: 10%;
+}
+#clear{
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 30%;
+}
+form button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #53e3a6;
+  border-radius: 3px;
+  width: 100px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+form button:hover {
+  background-color: #f5f7f9;
+}
+td:nth-of-type(2) {
+   padding-right: 10px;
+}
+image:hover{
+    width: 110%;
+    height: 110%;
+    
+}
+span{
+    font-weight: 300;
+    font-size: 300%;
+}
